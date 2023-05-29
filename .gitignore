@@ -1,0 +1,18 @@
+# Default ignored files
+/emrpad/.idea/shelf/
+/emrpad/.idea/workspace.xml
+# Datasource local storage ignored files
+/emrpad/.idea/dataSources/
+/emrpad/.idea/dataSources.local.xml
+# Editor-based HTTP Client requests
+/emrpad/.idea/httpRequests/
+/emrpad/.idea/libraries/Maven__*.xml
+/emrpad/.idea/jarRepositories.xml
+/emrpad/emrpad.iml
+/emrpad/*.gitignore
+/emrpad/.idea/libraries/Maven__org_openoffice_jurt_4_1_2.xml
+/emrpad/.idea/libraries/Maven__org_openoffice_ridl_4_1_2.xml
+/emrpad/.idea/libraries/Maven__org_openoffice_unoil_4_1_2.xml
+/emrpad/.idea/libraries/Maven__org_openoffice_juh_4_1_2.xml
+/emrpad/.idea/libraries/Maven__org_openoffice_bootstrap_connector_0_1_1.xml
+/emrpad/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml

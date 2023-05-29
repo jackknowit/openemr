@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="libreoffice_classes_linux64">
+    <CLASSES>
+      <root url="jar:///usr/lib64/libreoffice/program/classes/commonwizards.jar!/" />
+      <root url="jar:///usr/lib64/libreoffice/program/classes/form.jar!/" />
+      <root url="jar:///usr/lib64/libreoffice/program/classes/java_uno.jar!/" />
+      <root url="jar:///usr/lib64/libreoffice/program/classes/libreoffice.jar!/" />
+      <root url="jar:///usr/lib64/libreoffice/program/classes/query.jar!/" />
+      <root url="jar:///usr/lib64/libreoffice/program/classes/report.jar!/" />
+      <root url="jar:///usr/lib64/libreoffice/program/classes/ScriptFramework.jar!/" />
+      <root url="jar:///usr/lib64/libreoffice/program/classes/ScriptProviderForJava.jar!/" />
+      <root url="jar:///usr/lib64/libreoffice/program/classes/table.jar!/" />
+      <root url="jar:///usr/lib64/libreoffice/program/classes/unoloader.jar!/" />
+      <root url="jar:///usr/lib64/libreoffice/program/classes/xmerge.jar!/" />
+      <root url="jar:///usr/lib64/libreoffice/program/classes/XMergeBridge.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

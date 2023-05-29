@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE script:module PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "module.dtd">
+<script:module xmlns:script="http://openoffice.org/2000/script" script:name="Module1" script:language="StarBasic">
+
+Function  lp_hello(iparam as String)
+
+    dim document as object
+    dim dispatcher as object
+
+    document = ThisComponent.CurrentController.Frame
+    dispatcher = createUnoService(&quot;com.sun.star.frame.DispatchHelper&quot;)
+
+    dim args1(0) as new com.sun.star.beans.PropertyValue
+    args1(0).Name = &quot;Text&quot;
+    args1(0).Value = iparam+&quot;，非常高兴认识你，我是结构化文书宏脚本&quot;
+    dispatcher.executeDispatch(document, &quot;.uno:InsertText&quot;, &quot;&quot;, 0, args1())
+
+
+	rem msgbox iparam+&quot;，非常高兴认识你，我是结构化文书宏脚本&quot;
+	iparam=&quot;再见&quot;
+End Function
+
+Sub lp_insertOle(sclsid,w,h)
+
+	doc = thiscomponent
+    embed = doc.createInstance(&quot;com.sun.star.text.TextEmbeddedObject&quot;)
+    embed.CLSID = sclsid
+    dim size as new com.sun.star.awt.Size
+    size.Height = w
+    size.Width  = h
+    embed.setSize(size)
+    T = doc.Text
+    T.insertTextContent(T.End, embed, False)
+
+End Sub
+
+</script:module>

@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="libreoffice_classes_linux">
+    <CLASSES>
+      <root url="jar:///usr/lib/libreoffice/program/classes/commonwizards.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/form.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/hsqldb.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/java_uno.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/js.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/libreoffice.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/query.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/report.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/reportbuilder.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/reportbuilderwizard.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/ScriptFramework.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/ScriptProviderForBeanShell.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/ScriptProviderForJava.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/ScriptProviderForJavaScript.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/sdbc_hsqldb.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/table.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/unoloader.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/xmerge.jar!/" />
+      <root url="jar:///usr/lib/libreoffice/program/classes/XMergeBridge.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

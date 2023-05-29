@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="jni" Database="" Version="10000">
+  <Project Name="NativeTools" Path="NativeTools/NativeTools.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug">
+      <Environment/>
+      <Project Name="NativeTools" ConfigName="Debug"/>
+      <Project Name="NativeTools" ConfigName="Debug"/>
+      <Project Name="NativeTools" ConfigName="Debug"/>
+      <Project Name="NativeTools" ConfigName="Debug"/>
+      <Project Name="NativeTools" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="NativeTools" ConfigName="Release"/>
+      <Project Name="NativeTools" ConfigName="Release"/>
+      <Project Name="NativeTools" ConfigName="Release"/>
+      <Project Name="NativeTools" ConfigName="Release"/>
+      <Project Name="NativeTools" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
