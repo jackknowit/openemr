@@ -2289,6 +2289,9 @@ public class EMRPad {
         else if(SystemUtils.IS_OS_MAC)
             m_oooExeFolder = "/Users/username/Applications/LibreOffice.app/Contents/MacOS";
 
+
+       // System.out.println(m_oooExeFolder);
+
     }
 
     public boolean init(Widget panelParent,String sfilename)
@@ -2325,7 +2328,7 @@ public class EMRPad {
             detectLibreofficeExeFolder();
 
             if(SystemUtils.IS_OS_WINDOWS)
-                m_xContext = com.sun.star.comp.helper.Bootstrap.bootstrap();
+                m_xContext = BootstrapSocketConnector.bootstrap(m_oooExeFolder);
             else if(SystemUtils.IS_OS_LINUX)
                 m_xContext = BootstrapSocketConnector.bootstrap(m_oooExeFolder);
 
