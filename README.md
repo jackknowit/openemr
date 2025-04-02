@@ -7,11 +7,11 @@
 
 在Linux下java swt测试程序中嵌入libreoffice的运行效果:  
 单选元素：
-![alt 无法显示图片，检查你的网络](https://github.com/jacknsf/openemr/blob/main/doc/images/singlesel.png)
+![alt 无法显示图片，检查你的网络](https://github.com/jackknowit/openemr/blob/main/doc/images/singlesel.png)
 多选元素：
-![alt 无法显示图片，检查你的网络](https://github.com/jacknsf/openemr/blob/main/doc/images/multisel.png)
+![alt 无法显示图片，检查你的网络](https://github.com/jackknowit/openemr/blob/main/doc/images/multisel.png)
 日期时间元素：
-![alt 无法显示图片，检查你的网络](https://github.com/jacknsf/openemr/blob/main/doc/images/datetime.png)
+![alt 无法显示图片，检查你的网络](https://github.com/jackknowit/openemr/blob/main/doc/images/datetime.png)
 
 
 测试环境一：    
